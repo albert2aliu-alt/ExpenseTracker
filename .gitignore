@@ -41,3 +41,24 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Build files
+**/bin/
+**/obj/
+
+# Logs and generated files
+*.log
+*.err.log
+expo-qr.png
+eslint-report.json
+tsc-output.txt
+expo_error.txt
+expo_output.txt
+
+# Dependencies
+node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
