@@ -1,0 +1,28 @@
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:159:30)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+Error: Premature close
+    at onclose (node:internal/streams/end-of-stream:159:30)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+C:\Users\Admin\Desktop\expense_tracker\node_modules\expo\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+Error: ENOENT: no such file or directory, watch 'C:\Users\Admin\Desktop\expense_tracker\node_modules\.react-native-nitro-modules-2kmFkjuM\lib\module\turbomodule'
+    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)
+    at Object.watch (node:fs:2503:36)
+    at FallbackWatcher._watchdir (C:\Users\Admin\Desktop\expense_tracker\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:119:33)
+    at C:\Users\Admin\Desktop\expense_tracker\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:219:22
+    at Walker.<anonymous> (C:\Users\Admin\Desktop\expense_tracker\node_modules\metro-file-map\src\watchers\FallbackWatcher.js:358:5)
+    at Walker.emit (node:events:524:28)
+    at C:\Users\Admin\Desktop\expense_tracker\node_modules\walker\lib\walker.js:69:16
+    at FSReqCallback.oncomplete (node:fs:187:23)
+    at FSReqCallback.callbackTrampoline (node:internal/async_hooks:130:17) {
+  errno: -4058,
+  syscall: 'watch',
+  code: 'ENOENT',
+  path: 'C:\\Users\\Admin\\Desktop\\expense_tracker\\node_modules\\.react-native-nitro-modules-2kmFkjuM\\lib\\module\\turbomodule',
+  filename: 'C:\\Users\\Admin\\Desktop\\expense_tracker\\node_modules\\.react-native-nitro-modules-2kmFkjuM\\lib\\module\\turbomodule'
+}
+
+Node.js v20.20.2
