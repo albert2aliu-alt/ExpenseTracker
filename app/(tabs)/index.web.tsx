@@ -7,7 +7,7 @@ import { useColorScheme } from "@/hooks/use-color-scheme";
 import { getBalance, getTotalExpenses } from "@/utils/calculations";
 import { getCategoryByKey } from "@/utils/categories";
 import { formatCurrency, formatShortDate } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { router } from "expo-router";
 import React, { useMemo } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from "react-native";

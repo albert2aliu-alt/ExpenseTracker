@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 import PressableScale from "@/components/PressableScale";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/use-color-scheme";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { useRouter } from "expo-router";
 import React from "react";
 import {

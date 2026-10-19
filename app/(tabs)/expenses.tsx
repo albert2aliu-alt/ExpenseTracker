@@ -13,7 +13,7 @@ import {
 } from "@/utils/calculations";
 import { getCategoryByKey } from "@/utils/categories";
 import { formatCurrency, formatDate } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { FlashList } from "@shopify/flash-list";
 import { router } from "expo-router";
 import React, { useEffect, useMemo, useRef, useState } from "react";

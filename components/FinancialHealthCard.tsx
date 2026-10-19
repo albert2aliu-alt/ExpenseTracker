@@ -4,7 +4,7 @@ import { Expense, SavingGoal, Subscription } from "@/context/AppContext";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { analyzeFinancialHealth, HealthAlertSeverity } from "@/utils/financialHealth";
 import { formatCurrency } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { router } from "expo-router";
 import React, { useMemo } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";

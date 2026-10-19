@@ -11,7 +11,7 @@ import { useSharedWallet } from "@/context/SharedWalletContext";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { getCategoryByKey } from "@/utils/categories";
 import { formatCurrency } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import React, { useMemo, useState } from "react";
 import {
     Alert,

@@ -15,7 +15,7 @@ import {
 } from "@/services/notifications";
 import { getVisionApiKey, setVisionApiKey } from "@/services/secrets";
 import { POPULAR_CURRENCIES } from "@/utils/currency";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import * as DocumentPicker from "expo-document-picker";
 import * as FileSystem from "expo-file-system";
 import { LinearGradient } from "expo-linear-gradient";

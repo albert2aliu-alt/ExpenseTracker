@@ -3,7 +3,7 @@ import { Theme } from "@/constants/Theme";
 import { useApp } from "@/context/AppContext";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { getVisionApiKey } from "@/services/secrets";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { CameraView, useCameraPermissions } from "expo-camera";
 import { LinearGradient } from "expo-linear-gradient";
 import { router } from "expo-router";

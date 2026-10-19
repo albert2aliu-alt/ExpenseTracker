@@ -8,7 +8,7 @@ import { getExpensesByCategory, getMonthlyTotals, getTotalExpenses, filterByPeri
 import { getCategoryByKey } from '@/utils/categories';
 import { formatCurrency } from '@/utils/formatters';
 import { formatWithCurrency } from '@/utils/currency';
-import { Ionicons } from '@expo/vector-icons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import React, { useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View, TouchableOpacity, useWindowDimensions } from 'react-native';

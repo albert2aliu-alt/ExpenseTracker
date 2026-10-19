@@ -21,7 +21,7 @@ import { BiometricService } from "@/services/biometric";
 import { getBalance, getTotalExpenses } from "@/utils/calculations";
 import { convertAmount, formatWithCurrency } from "@/utils/currency";
 import { formatCurrency } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import { router } from "expo-router";
 import React, { useMemo, useState } from "react";
 import {
@@ -940,4 +940,3 @@ const styles = StyleSheet.create({
 });
 
 export { };
-

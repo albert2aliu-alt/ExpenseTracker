@@ -1,7 +1,7 @@
 import { Colors } from "@/constants/Colors";
 import { Theme } from "@/constants/Theme";
 import { useColorScheme } from "@/hooks/use-color-scheme";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import * as Haptics from "expo-haptics";
 import type { BottomTabBarProps } from "expo-router/build/react-navigation/bottom-tabs/types";
 import React, { useEffect, useRef } from "react";

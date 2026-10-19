@@ -18,7 +18,7 @@ import {
 import { CATEGORIES } from "@/utils/categories";
 import { convertAmount, formatWithCurrency } from "@/utils/currency";
 import { formatCurrency } from "@/utils/formatters";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import * as Haptics from "expo-haptics";
 import { router, useLocalSearchParams } from "expo-router";
 import React, { useEffect, useRef, useState } from "react";

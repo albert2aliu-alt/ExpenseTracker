@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node ./node_modules/expo/bin/cli start",
+    "start:fast": "node ./node_modules/expo/bin/cli start --no-dev --minify",
     "start:tunnel": "node ./node_modules/expo/bin/cli start --tunnel",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "node ./node_modules/expo/bin/cli run:android",

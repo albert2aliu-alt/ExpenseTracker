@@ -7,7 +7,7 @@ import { Colors } from "@/constants/Colors";
 import { Theme } from "@/constants/Theme";
 import { useColorScheme } from "@/hooks/use-color-scheme";
 import { calcProjection, ProjectionPoint } from "@/utils/forecast";
-import { Ionicons } from "@expo/vector-icons";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import React, { useCallback, useMemo, useState } from "react";
 import {
   ScrollView,

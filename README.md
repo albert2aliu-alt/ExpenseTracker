@@ -10,13 +10,27 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the app in Expo Go
 
    ```bash
-   npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+Scan the QR code with Expo Go. For faster bundle transfer and production-like
+JavaScript execution, you can instead run:
+
+```bash
+npm run start:fast
+```
+
+This serves a minified production-mode bundle. Use `npm start` for normal
+development and diagnostics; minifying can make Metro's first bundle build take
+longer, so `start:fast` is most useful when measuring app loading on the same
+device and network. Neither command can remove Expo Go's network or device
+startup limits. For a realistic installed-app launch comparison, make a
+production/release build.
+
+Other available targets include:
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
